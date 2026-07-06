@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# FastAPI / Uvicorn specific
+*.db
+*.sqlite3
+instance/
+.env
+.env.*
+
+# Cache
+*.cache
+*.tmp
+
+# Migrations (if using Alembic)
+migrations/versions/*.pyc
+migrations/__pycache__/
+
+# Static files (if generated dynamically)
+staticfiles/
+media/
+
+# Docker
+*.pid
+*.sock
